@@ -1,0 +1,19 @@
+version: 1
+project:
+  exports:
+    - format: typst
+      template: https://github.com/myst-templates/plain_typst_book.git 
+      output: exports/typst_example.pdf
+      id: output-pdf1
+
+    - format: pdf 
+      template: physical_review_journals
+      output: exports/pr_example.pdf  
+      id: output-pdf2
+      options:
+        formatting: twocolumn
+
+    - format: pdf
+      template: ./template
+      output: exports/tud_pdf.pdf
+      id: output-pdf3

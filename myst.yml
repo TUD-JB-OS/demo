@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: cd6d1764-074a-47b3-971f-108d7f47cb93
+  title: Publishing a content rich paper with interactive elements
+  # description:
+  # keywords: []
+  authors: [Freek Pols]
+  github: https://github.com/TUD-JB-OS/demo
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+  jupyter:
+    binder:
+      repo: https://github.com/executablebooks/thebe-binder-base
+
+extends: 
+  - toc.yml
+  - export.yml
+
+site:
+  template: article-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
