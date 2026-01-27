@@ -15,7 +15,7 @@ project:
 
 
   jupyter:
-    lite: true
+    # lite: true
     binder:      
       repo: https://github.com/executablebooks/thebe-binder-base
 
@@ -24,7 +24,7 @@ extends:
   - export.yml
 
 site:
-  template: article-theme
+  template: book-theme
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
