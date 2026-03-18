@@ -3,4 +3,5 @@ project:
   toc: 
   - file: index.md
   - file: introduction.md
+  - file: methods.md
   - file: results.ipynb
