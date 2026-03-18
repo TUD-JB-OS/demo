@@ -9,7 +9,8 @@ project:
   github: https://github.com/TUD-JB-OS/demo
   date: 2026-01-27
   
-
+  plugins:
+    - wizard.mjs
 
   jupyter:
     # lite: true

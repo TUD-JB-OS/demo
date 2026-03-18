@@ -2,7 +2,7 @@ version: 1
 project:
   exports:
     - format: typst
-      template: https://github.com/myst-templates/plain_typst_book.git 
+      template: https://github.com/TUD-JB-OS/typst_template
       output: exports/typst_example.pdf
       id: output-pdf1
 
